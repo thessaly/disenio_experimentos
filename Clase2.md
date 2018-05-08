@@ -55,3 +55,37 @@ Cuando SCentre>SCdentro hay significancia entre tratamientos
 Puedo establecer una comparación haciendo cociente de cuadrados medios, que tienen una distribución asimétrica (F = CMentre/CMdentro), asignando una probabilidad alpha=determinada y haciendo una prueba de hipótesis
 
 El anova de un factor compara variabilidades entre y dentro tratamientos. Cuando p<0.05 rechazo Ho, es decir q rechazo la hipótesis que dice que todos los tratamientos son iguales
+
+## Muestreo aleatorio
+
+Las un exp deben tener la misma prob de ser elegidas para el experimento. Si no, implicaría no-normalidad de la distribucion de la variable o afectar la homogeneidad de varianzas.
+
+## Independencia
+
+Independencia de los errores, simplifico variables.
+
+## Homogeneidad de varianzas
+
+Razones de heterogeneidad:
+- poblaciones más variables que otras
+- especies uniformes para un caracter no para otro
+- muestras tomadas en condiciones distintas
+- mala eleccion de la escala de medición
+
+Consecuencias:
+- si el diseño es balanceado y la falta de homogeneidad es moderada, no pasa nada
+- si la varianza es demasiado heterogenea no hay forma
+
+Pruebas:
+Mas comun, la de Bartlett
+
+## Normalidad
+
+Se supone normalidad de los errores
+Se pueden aplicar transformaciones de los datos cuando no hay
+La prueba de normalidad se hace para cada tratamiento (test Shapiro-Wilks)
+
+
+## Independencia
+
+Se garantiza con muestreo aleatorio
